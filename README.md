@@ -43,3 +43,10 @@ function hasCycle(head) {
 	return false;
 }
 
+
+data structure
+
+https://medium.com/change-or-die/%E6%BC%94%E7%AE%97%E6%B3%95%E5%9C%96%E9%91%91-%E7%AC%AC%E4%B8%80%E7%AB%A0-%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B-10d5a6337be5
+https://www.slideshare.net/ccckmit/ss-56891871
+https://www.youtube.com/watch?v=3503j2L6qNA
+https://www.youtube.com/watch?v=bum_19loj9A
