@@ -13,3 +13,33 @@ function replaceTag(s, from, to) {
 
 replaceTag(s, from, to)
 ```
+
+
+linklist
+
+solution: (1)hashmap (2)2 pointer
+https://yohey66.wordpress.com/2018/08/28/leetcode-141-linked-list-cycle/
+
+head -> 1 -> 2 -> 3 -> 4 -> null
+node = {
+	val: x,
+	next: node
+}
+
+head -> 1 -> 2 -> 3 -> 1 -> 2 ->
+head -> 1 -> 2 -> 3 -> 4 -> null => False
+head -> 1 -> 2 …. => True
+
+function hasCycle(head) {
+	var hash = {};
+	var cur = head;
+	if (head == null) return false;
+
+	while (cur.next != null) {
+		if (hash[head.val] === ‘undefined’ ) hash[head.val] = 0;
+		else return true;
+		cur = cur.next;
+	}
+	return false;
+}
+
