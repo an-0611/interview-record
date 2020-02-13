@@ -1,4 +1,10 @@
-ＰＳ：字串處理 白板要熟 
+```markdown
+improve: 
+字串處理要熟
+priority : 資料結構(Linked list, binary tree, map, set) => 正規 =>
+白板先想思路
+
+```
 
 ```markdown
 Q1: 
@@ -53,6 +59,7 @@ function hasCycle(head) {
     return false;
 };
 ```
+
 ```markdown
 Q3:
 what's different below promise
@@ -151,7 +158,10 @@ A7:
    - 503 Service Unavailable：伺服器臨時維護或是快掛了，暫時無法處理請求。
    - 504 Gateway Timeout：伺服器上的服務沒有回應。
 ```
-
-
+```markdown
+Q8: async sync diff
+A8: async no block thread, save to task queue, instead of sync
+    sync block thread, one line exec. 
+```
 
 
