@@ -16,7 +16,8 @@ var output list = [‘hello’, ‘<span> String here </span>’, ‘hehe’]
 
 A:
 function replaceTag(s, from, to) {
-	return s.split(/(<hello>.*?<\/hello>)/).map(word => word.replace(/(<\/?)hello(>)/g, '$1' + to + '$2'))
+	return s.split(/(<hello>.*?<\/hello>)/)
+		.map(word => word.replace(/(<\/?)hello(>)/g, '$1' + to + '$2'))
 }
 
 replaceTag(s, from, to)
