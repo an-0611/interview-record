@@ -52,10 +52,10 @@ function hasCycle(head) {
 A2-2pointer:
 function hasCycle(head) {
     let r = head;
-    let t = head; // 記錄第一個元素
+    let t = head;
     while (r != null && r.next != null && r.next.next !=null) { // compare
        r = r.next.next; // 迴圈一直往後找下一個node是否有相同元素
-       t = t.next;
+       t = t.next;//一次只走一步 如果被r追上代表cycle
        if (t == r) return true;
     }
     return false;
