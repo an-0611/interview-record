@@ -1,9 +1,10 @@
 ```markdown
+2/12 record
 improve: 
 字串處理要熟
-priority : 資料結構(Linked list, binary tree, map, set) => 正規 =>
+priority : 資料結構(Linked list, binary tree, map, set) => regexp
 白板先想思路
-
+介紹重點簡短
 ```
 
 ```markdown
