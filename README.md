@@ -1,3 +1,5 @@
+ＰＳ：字串處理 白板要熟 
+
 ```markdown
 Q1: 
 var s = 'hello <hello> String here </hello> hehe <hello> Strineeeeg here </hello> hoho'
@@ -13,6 +15,7 @@ function replaceTag(s, from, to) {
 replaceTag(s, from, to)
 ```
 
+```markdown
 Q2:
 linklist
 solution: (1)hashmap (2)2 pointer
@@ -49,7 +52,8 @@ function hasCycle(head) {
     }
     return false;
 };
-
+```
+```markdown
 Q3:
 what's different below promise
 A3: // 永遠要回傳結果，否則 Callback 不會獲得前一個 Promise 的結果。
@@ -66,14 +70,14 @@ doSomething().then(doSomethingElse());
 doSomething().then(doSomethingElse);// 會等做完 dosomethindElse = successcallback
 
 ／／拿到結果有無回傳
+```
 
-
+```markdown
 Q4: Virtual DOM
 A4: 以 JavaScript 物件模擬DOM結構產生的樹狀結構 不直接操作DOM
     待一段落後再將變更更新回真實DOM
-    React: shouldComponentUpdate
-    Vue: watch
-
+```
+```markdown
 Q5: React Vue 優缺
 A5: 
 React: 
@@ -93,7 +97,9 @@ Vue:
 	內部已經進行deepEqual優化
 	建立小型項目
 	默認就是優化狀態減少渲染
-	
+```
+
+```markdown
 Q6: 隱藏元素方法
 A6: 
    opacity: 0;
@@ -116,13 +122,36 @@ A6:
    left: -9999px;
 
 e.g. :
+```
+
+```markdown
+Q7: status code !!!記所有status code
+HTTP 204 No Content 成功狀態碼表明請求成功，但客戶端不需要更新目前的頁面。204 回應預設是可被快取的，此類回應中會包含 ETag 標頭。
+回傳 204 的常見情況是作為 PUT 請求的回應，更新一個資源且沒有更動目前顯示給使用者的頁面內容。若是有資源被建立，201 Created 則應該被回傳。而若頁面應該更新為新的頁面，則應使用 200 。
 
 
-
-Q7: status code
 A7:
-   1XX
-   2XX
-   3XX
-   4XX
-   5XX
+   1XX(資訊回應)
+   2XX(成功回應)
+   - 200 =>
+   - 201 Created => 
+   - 204 No Content => 成功請求但不需更新，reponse可快取，包含ETag，常常發生在PUT請求，更新資料但用戶端沒有要呈現
+   3XX(重定向)
+   - 301 Moved Permanently：已永久移動到新位置。
+   - 302 Found（Moved Temporarily）：暫時移到新位置。
+   - 304 Not Modified：東西跟之前長一樣，可以從快取拿就好。
+   4XX(用戶端錯誤)
+   - 400 Bad Request：明顯的用戶端錯誤，伺服器無法處理這個 Request。e.g. fetch error url
+   - 401 Unauthorized：未認證，可能需要登入或 Token。
+   - 403 Forbidden：沒有訪問權限。
+   - 404 Not Found：找不到資源。
+   5XX(伺服器端錯誤)
+   - 500 Internal Server Error：伺服器端錯誤。
+   - 502 Bad Gateway：通常是伺服器的某個服務沒有正確執行。
+   - 503 Service Unavailable：伺服器臨時維護或是快掛了，暫時無法處理請求。
+   - 504 Gateway Timeout：伺服器上的服務沒有回應。
+```
+
+
+
+
