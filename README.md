@@ -5,6 +5,15 @@ improve:
 priority : 資料結構(Linked list, binary tree, map, set) => regexp
 白板先想思路
 介紹重點簡短
+
+linked list & binary tree & Btree
+https://www.slideshare.net/ccckmit/ss-56891871   57
+http://ir.lib.cyut.edu.tw:8080/bitstream/310901800/22717/2/CircularList.java
+http://alrightchiu.github.io/SecondRound/linked-list-introjian-jie.html
+https://ithelp.ithome.com.tw/articles/10213184
+https://ithelp.ithome.com.tw/articles/10217419
+https://w3c.hexschool.com/blog/bc00a810
+https://www.youtube.com/watch?v=_r7cfVrn28c&list=PLuOw0q0cQg5ZIFxR-ONk5mwIV6YaBDWAj
 ```
 
 ```markdown
