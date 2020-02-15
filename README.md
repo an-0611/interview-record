@@ -1,10 +1,10 @@
 ```markdown
 2/12 record
 improve: 
-字串處理要熟
+字串處理
 priority : 資料結構(Linked list, binary tree, map, set) => regexp
-白板先想思路
-介紹重點簡短
+白板
+介紹重點
 
 linked list & binary tree & Btree
 https://www.slideshare.net/ccckmit/ss-56891871   57
@@ -121,6 +121,8 @@ Vue:
 Q6: 隱藏元素方法
 A6: 
    opacity: 0;
+   
+   filter:opacity(0)
 	
    width: 0;
    height: 0;
@@ -138,8 +140,6 @@ A6:
    position: absolute; || fix
    top: -9999px;
    left: -9999px;
-
-e.g. :
 ```
 
 ```markdown
@@ -169,10 +169,19 @@ A7:
    - 503 Service Unavailable：伺服器臨時維護或是快掛了，暫時無法處理請求。
    - 504 Gateway Timeout：伺服器上的服務沒有回應。
 ```
+
 ```markdown
 Q8: async sync diff
 A8: async no block thread, save to task queue, instead of sync
     sync block thread, one line exec. 
 ```
+
+Q9: ssr advantage ＆ disadvantage
+A9:
+advantage:
+1.SEO
+2.first screen load speed optimization
+disadvantage:
+1.server efficacy increase
 
 
